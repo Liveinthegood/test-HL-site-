@@ -1,0 +1,403 @@
+/* DESKTOP VERSION BELOW */
+
+
+  .navbar-brand {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 26px;
+    color:white;
+    }
+
+/* hero background pic for index page only */
+
+.heroindex2 { 
+
+  background-color: #074f57;
+  background-image: url("../images/mtn3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+
+  padding-top: 100px;
+  padding-bottom: 200px;
+
+}
+
+/* hero background pic for book page only */
+
+
+.heroindex3 { 
+
+  background-color: #074f57;
+  background-image: url("../images/mtn4.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+
+  padding-top: 100px;
+  padding-bottom: 200px;
+
+}
+
+.herosub {
+
+  color: white;
+  font-size: 80px;
+  line-height: 85px;
+  font-weight: bold;
+  padding-bottom: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+  /* webkit below here makes an outline for the text. 
+  Yellow is the fill, black is the stroke or outline color */
+
+  -webkit-text-stroke: 3px black;
+
+}
+
+.herohead  {
+
+  color: yellow;
+  font-size: 120px;
+  line-height: 125px;
+  font-weight: bold;
+  margin-top: 40px;
+  padding-bottom: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* webkit below here makes an outline for the text. 
+  Yellow is the fill, black is the stroke or outline color */
+
+  -webkit-text-stroke: 3px black;
+
+}
+
+.nslogohero{
+
+  height: 40%;
+  width: 40%;
+  float:right;
+  padding-top: 40px;
+} 
+
+.HeaderMain {
+
+  padding-left: 55px;
+
+  margin-top: 100px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+font-weight: bold;
+font-size: 75px;
+color: red;
+
+
+}
+
+/* body text for most of site */
+
+.bodytext{
+
+
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  font-size: 24px;
+  text-justify: left;
+
+}
+
+.quoteboxYellow {
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  text-justify: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: yellow;
+  float: right;
+
+}
+
+.hyapatiaLeePic {
+  height: 25%;
+  width: 25%;
+  position:relative;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top:20px;
+  padding-bottom: 60px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  float:left;
+
+}
+
+.hyapatiaLeePic2 {
+  height: 25%;
+  width: 25%;
+  position:relative;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top:20px;
+  padding-bottom: 60px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  float:right;
+
+}
+
+
+.MedicineWheelWords {
+  height: 40%;
+  width: 40%;
+  position:relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:20px;
+  padding-bottom: 60px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+}
+
+.helpHyapatia {
+  height: 20%;
+  width: 20%;
+  position:relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:20px;
+  padding-bottom: 60px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+}
+
+.FiveBooksTogether {
+  height: 60%;
+  width: 60%;
+  position:relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:20px;
+  padding-bottom: 60px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+}
+
+.booksonleft {
+  height: 25%;
+  width: 25%;
+  position:relative;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top:20px;
+  padding-bottom: 60px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  float:left;
+
+}
+
+.booksonright {
+  height: 25%;
+  width: 25%;
+  position:relative;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top:20px;
+  padding-bottom: 60px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  float:right;
+
+}
+
+
+
+
+
+
+
+hr {
+
+  border: solid black 16px;
+  border-bottom: none;
+  width: 24%;
+  margin: 100px auto;
+
+
+}
+
+/* PRIMARY BUTTON HERE below */
+
+.buttonbaby {
+
+  padding-left: 30px; 
+  padding-right: 30px;
+  font-size: 65px; 
+  background-color: yellow; 
+  color: black; 
+  border-radius: 35px; 
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+  margin-top: 50px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+
+}
+
+.buttonbaby:hover {
+
+  color: red;
+}
+
+.bookbutton {
+
+background-color: tan;
+text-decoration: none;
+margin-top: 50px;
+margin-right: 60px;
+margin-bottom: 60px;
+color: red;
+
+
+
+
+
+}
+
+    /* TRIANGLES WHEEL PAGE AREA */
+
+
+.headerdesk {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 54px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  background-color: tan;
+  color: black;
+  border: 3px solid black;
+
+}
+
+.turtleislandpicL {
+  height: 50%;
+  width: 50%;
+  position:relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:80px;
+  padding-bottom: 60px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  float: left;
+
+}
+
+
+
+    /* FOOTER AREA */
+  
+    .footer3 {
+
+      padding: 50px;
+      text-align: center;
+      font-size: 38px;
+      background-color: black;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .copyrightTEXT {
+      
+      font-size: 33px;
+      color:white;
+      padding-top: 45px;
+    
+    
+          }
+
+          .contactline {
+
+            color: yellow;
+            font-size: 75px;
+            line-height: 107px;
+          }
+        
+          .contactline:hover {
+      
+            color: AQUA;
+          }
+      
+
+
+
+
+
+/* TABLET AND MOBILE VERSIONS BELOW */
+
+@media only screen and (min-width:180px) and (max-width: 1023px)  {
+
+
+}
+
+
